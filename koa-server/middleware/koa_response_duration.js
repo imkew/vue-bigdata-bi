@@ -9,5 +9,5 @@ module.exports = async (ctx, next) => {
   // 设置响应头 X-Response-Time
   const duration = end - start
   // ctx.set 设置响应头
-  ctx.set('X-Response-Time-kew', duration + 'ms')
+  ctx.set('X-Response-Time', duration + 'ms')
 }

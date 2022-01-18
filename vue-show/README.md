@@ -1,4 +1,4 @@
-# vue-show
+# vision
 
 ## Project setup
 ```
